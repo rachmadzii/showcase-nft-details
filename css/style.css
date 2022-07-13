@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:wght@400;700&family=Raleway:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+:root {
+  --background: #090811;
+  --soft-purple: #b6b1de;
+  --dark-purple: #2d1959;
+  --dark-green: #2f3a1c;
+  --soft-green: #c7fa76;
+  --dark-yellow: #564318;
+  --soft-yellow: #f9c85a;
+  --magenta: #f2418f;
+  --white: #ffffff;
+  --white-text: #fefcfd;
+}
+
+body {
+  background-color: var(--background);
+  position: relative;
+  padding: 10px 120px;
+}
+
+.bg-purple {
+  background-color: var(--dark-purple);
+}
+
+.bg-green {
+  background-color: var(--soft-green);
+}
+
+.btn-primary {
+  width: 135px;
+  height: 50px;
+  color: var(--white);
+  background-color: var(--dark-purple);
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  border-radius: 100px;
+}
+
+.btn-primary:hover {
+  background-color: #261649;
+}
+
+.btn-secondary {
+  width: 200px;
+  height: 58px;
+  color: var(--dark-yellow);
+  background-color: var(--soft-yellow);
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 0px 10px 40px rgba(249, 200, 90, 0.5);
+}
+
+.btn-secondary:hover {
+  background-color: #d4a53a;
+  color: #503907;
+}
+
+.large-title-text {
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: var(--white);
+}
+
+.medium-title-text {
+  color: var(--white-text);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.small-title-text {
+  margin-bottom: 0;
+  color: var(--white-text);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.italic-title-text {
+  font-family: 'Bad Script', cursive;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 50px;
+  margin-bottom: 6px;
+  font-weight: 400;
+  color: var(--magenta);
+}
+
+.subtitle-text {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: var(--soft-purple);
+  line-height: 32px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.img-union {
+  z-index: -1;
+  position: absolute;
+  top: 220px;
+  right: 0;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  font-weight: 500;
+  color: var(--soft-yellow);
+}
+
+.navbar-nav .nav-link {
+  color: var(--soft-purple);
+}
+
+.navbar-toggler {
+  border: none;
+  color: var(--soft-yellow);
+}
+
+.navbar-toggler:focus,
+.btn {
+  box-shadow: none !important;
+}
+
+.search {
+  width: 50px;
+  height: 50px;
+}
+
+.banner {
+  display: flex;
+  padding: 0 40px;
+  margin: 50px 0;
+  gap: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner .img-banner {
+  max-width: 500px;
+  max-height: 590px;
+  min-width: 400px;
+  min-height: 472px;
+  border-radius: 60px;
+  filter: drop-shadow(0px 32px 40px rgba(25, 79, 155, 0.55));
+}
+
+.banner div {
+  gap: 32px;
+}
+
+.pill-price {
+  background-color: var(--soft-green);
+  border-radius: 100px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.pill-price img {
+  width: 13px;
+  height: 20px;
+}
+
+.pill-price p {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.profile-author {
+  display: flex;
+  align-items: center;
+}
+
+.profile-author img {
+  width: 76px;
+  height: 76px;
+  padding: 8px;
+  border: 1px solid #b6b1de;
+  border-radius: 100px;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  padding: 0 100px;
+  margin-top: 180px;
+}
+
+.list-benefits {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-benefits .card-benefit {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.similar-items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 120px 0;
+}
+
+.list-items {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.img-nft {
+  border-radius: 24px;
+  width: 280px;
+  height: 342px;
+}
+
+.card-item .pill-price {
+  top: 20px;
+  right: 20px;
+}
+
+.img-shadow {
+  position: absolute;
+  height: 14px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background: var(--color);
+  filter: blur(30px);
+  border-radius: 24px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+  .img-banner {
+    display: none;
+  }
+  .card-benefit,
+  .card-item,
+  .img-nft {
+    width: 100%;
+    height: auto;
+  }
+  .br-banner {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    padding: 20px 40px;
+  }
+  .img-banner {
+    display: none;
+  }
+  .navbar,
+  .banner,
+  .benefits,
+  .similar-items {
+    padding: 0;
+  }
+  .benefits {
+    margin-top: 120px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1345px) {
+  body {
+    padding: 10px 60px;
+  }
+  .br-banner {
+    display: none;
+  }
+}
