@@ -23,14 +23,6 @@ body {
   padding: 10px 120px;
 }
 
-.bg-purple {
-  background-color: var(--dark-purple);
-}
-
-.bg-green {
-  background-color: var(--soft-green);
-}
-
 .btn-primary {
   width: 135px;
   height: 50px;
@@ -65,7 +57,7 @@ body {
 
 .large-title-text {
   font-size: 55px;
-  line-height: 60px;
+  line-height: 70px;
   font-weight: 700;
   margin-bottom: 0;
   color: var(--white);
@@ -108,16 +100,8 @@ body {
 .img-union {
   z-index: -1;
   position: absolute;
-  top: 220px;
+  top: 200px;
   right: 0;
-}
-
-.navbar {
-  padding: 20px 0;
-}
-
-.navbar-collapse {
-  flex-grow: 0;
 }
 
 .navbar-nav .nav-link.active,
@@ -148,7 +132,7 @@ body {
 .banner {
   display: flex;
   padding: 0 40px;
-  margin: 50px 0;
+  margin: 40px 0;
   gap: 80px;
   align-items: center;
   justify-content: space-between;
@@ -161,10 +145,6 @@ body {
   min-height: 472px;
   border-radius: 60px;
   filter: drop-shadow(0px 32px 40px rgba(25, 79, 155, 0.55));
-}
-
-.banner div {
-  gap: 32px;
 }
 
 .pill-price {
@@ -189,12 +169,7 @@ body {
   line-height: 21px;
 }
 
-.profile-author {
-  display: flex;
-  align-items: center;
-}
-
-.profile-author img {
+.img-author {
   width: 76px;
   height: 76px;
   padding: 8px;
@@ -309,11 +284,8 @@ body {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1345px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
   body {
     padding: 10px 60px;
-  }
-  .br-banner {
-    display: none;
   }
 }

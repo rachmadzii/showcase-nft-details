@@ -22,7 +22,7 @@
       alt="Union Circle"
       class="img-union"
     />
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" style="padding: 20px 0">
       <div class="container-fluid p-0">
         <a class="navbar-brand" href="#">
           <img
@@ -43,7 +43,11 @@
         >
           <i class="fa-solid fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse gap-5" id="navbarToogle">
+        <div
+          class="collapse navbar-collapse gap-5"
+          id="navbarToogle"
+          style="flex-grow: 0"
+        >
           <ul class="navbar-nav gap-lg-4 mt-3 mt-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="#">Home</a>
@@ -71,14 +75,11 @@
       </div>
     </nav>
     <header class="banner">
-      <div class="d-flex flex-column">
+      <div class="d-flex flex-column" style="gap: 32px">
         <h1 class="large-title-text">Space Time</h1>
-        <p class="subtitle-text">
-          Projek yang dibangun untuk memberikan sebuah
-          <br class="br-banner" />
-          motivasi kuat kepada manusia dalam proses
-          <br class="br-banner" />
-          tercapainya antar galaxy multi univ.
+        <p class="subtitle-text" style="max-width: 446px">
+          Projek yang dibangun untuk memberikan sebuah motivasi kuat kepada
+          manusia dalam proses tercapainya antar galaxy multi univ.
         </p>
         <div class="d-flex gap-3 align-items-center">
           <p class="subtitle-text m-0">Latest Price:</p>
@@ -87,8 +88,12 @@
             <p>52</p>
           </div>
         </div>
-        <div class="profile-author gap-3 mb-3">
-          <img src="./assets/images/photo-profile.png" alt="Photo Profile" />
+        <div class="d-flex align-items-center gap-3 mb-3">
+          <img
+            src="./assets/images/photo-profile.png"
+            alt="Photo Profile"
+            class="img-author"
+          />
           <div class="d-flex flex-column gap-1">
             <p class="small-title-text">Azzam Humaija</p>
             <p class="subtitle-text fs-6 lh-base">@zzam</p>
@@ -109,7 +114,10 @@
       </div>
       <div class="list-benefits">
         <div class="card-benefit">
-          <div class="bg-purple rounded-circle p-3 mb-4">
+          <div
+            class="rounded-circle p-3 mb-4"
+            style="background-color: var(--dark-purple)"
+          >
             <img
               src="./assets/icons/ic_globe.svg"
               alt="Globe Icon"
@@ -124,7 +132,10 @@
           </p>
         </div>
         <div class="card-benefit">
-          <div class="bg-green rounded-circle p-3 mb-4">
+          <div
+            class="rounded-circle p-3 mb-4"
+            style="background-color: var(--soft-green)"
+          >
             <img
               src="./assets/icons/ic_card.svg"
               alt="Card Icon"
@@ -139,7 +150,10 @@
           </p>
         </div>
         <div class="card-benefit">
-          <div class="bg-purple rounded-circle p-3 mb-4">
+          <div
+            class="rounded-circle p-3 mb-4"
+            style="background-color: var(--dark-purple)"
+          >
             <img
               src="./assets/icons/ic_watch.svg"
               alt="Watch Icon"
